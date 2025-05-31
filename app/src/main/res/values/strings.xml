@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">NotesApp</string>
+    <string name="app_name">Notes app</string>
+    <string name="note">Note</string>
+    <string name="back_button">Back</string>
+    <string name="add_button">Add</string>
+    <string name="save_button">Save</string>
+    <string name="fab">Floating action button</string>
+    <string name="home_route">HomeRoute</string>
+    <string name="note_route">AddEditNoteRoute</string>
+    <string name="title_placeholder">Title</string>
+    <string name="note_placeholder">Start keeping your notes</string>
+    <string name="notes_failed">Failed to load notes</string>
+    <string name="notes_empty">There are no notes yet</string>
+    <string name="category_empty">There are no notes in this category yet</string>
+    <string name="add_notes">Click the button below to start keeping your notes</string>
+    <string name="category_button">Category button</string>
+    <string name="settings_button">Settings button</string>
+    <string name="category">Category</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="categories_empty">There are no categories yet</string>
+    <string name="add_categories">Click the add button to start categorizing your notes</string>
+    <string name="add_category">Add category</string>
+    <string name="new_category">New category</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="more">More</string>
+    <string name="choose_category">Choose category for your note</string>
+    <string name="selected">Selected icon</string>
 </resources>

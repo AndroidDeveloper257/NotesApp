@@ -66,4 +66,6 @@ dependencies {
     implementation(libs.koin.androidx.compose)
     implementation(libs.koin.androidx.navigation)
     implementation(libs.koin.android)
+    implementation(libs.lottie.compose)
+    implementation(libs.androidx.compose.animation)
 }

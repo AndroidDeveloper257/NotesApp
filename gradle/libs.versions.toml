@@ -1,18 +1,20 @@
 [versions]
-agp = "8.9.2"
+agp = "8.9.3"
 kotlin = "2.0.21"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.7"
+lifecycleRuntimeKtx = "2.9.0"
 activityCompose = "1.10.1"
-composeBom = "2025.04.01"
-navigation = "2.8.9"
+composeBom = "2025.05.01"
+lottieCompose = "4.0.0"
+navigation = "2.9.0"
 room = "2.7.1"
-kotlinxSerialization = "1.6.3"
+kotlinxSerialization = "1.7.3"
 ksp = "2.0.21-1.0.27"
 koin = "4.0.4"
+composeAnimation = "1.8.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -37,6 +39,9 @@ kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serializa
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
 koin-androidx-navigation = { module = "io.insert-koin:koin-androidx-navigation", version.ref = "koin" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
+androidx-compose-animation = { module = "androidx.compose.animation:animation", version.ref = "composeAnimation" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
